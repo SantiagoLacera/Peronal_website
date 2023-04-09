@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Inter:wght@400;700&family=Kanit&family=Pacifico&family=Roboto+Mono:ital,wght@1,500&family=Sono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Inter:wght@400;700&family=Kanit&family=Pacifico&family=Raleway:wght@500&family=Roboto+Mono:ital,wght@1,500&family=Sono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&family=Syne+Mono&display=swap");
+/* Global styles */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffe5ca;
+  background-color: #4d4d4d;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Roboto Mono";
+  font-size: 40px;
+  color: #ffe5ca;
+  text-align: center;
+  /* padding-bottom: 25px; */
+}
+h2 {
+  font-family: "Roboto Mono";
+  font-size: 40px;
+  color: #829460;
+  text-align: center;
+  /* padding-bottom: 25px; */
+}
+
+h3 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 25px;
+  color: #ff9494;
+  text-align: center;
+}
+p {
+  margin: 5px;
+}
+
+ul,
+.certs {
+  font-family: "Poppins";
+  font-size: 20px;
+  color: #ffe5ca;
+  justify-content: center;
+}
+
+span.position {
+  font-family: "Roboto Mono";
+  font-size: 20px;
+  color: #ede9d5;
+  text-align: justify;
+  /* padding-bottom: 25px; */
+}
+
+form {
+  font-family: "Raleway";
+  color: #ffe5ca;
+  padding: 25px;
+  text-align: center;
+}
+
+label {
+  text-align: left;
+  font-size: 27px;
+  font-weight: bold;
+  padding: 15px;
+  font-family: "Syne mono";
+}
+
+a {
+  color: #ffe5ca;
+  text-decoration: none;
+}
+
+span.name {
+  color: #a4bc92;
+}
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+}
+
+input,
+#message {
+  border: 5px solid #ffe5ca;
+  border-radius: 10px;
+}
+/* Styling for input fields */
+#name,
+#email,
+#phone {
+  width: 20%;
+  padding: 10px;
+  border: 5px solid #ffe5ca;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+/* Styling for button */
+#button {
+  background-color: #ffe5ca;
+  color: #4d4d4d;
+  padding: 10px;
+  border-radius: 25px;
+  font-size: 20px;
+  font-weight: 700;
+  word-spacing: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 3%;
+  width: 30%;
+  height: 50px;
+}
+/* Styling for button on different states */
+#button:hover {
+  border: 5px inset #4d4d4d;
+  cursor: url(hand.cur), pointer;
+}
+
+/* Styling for textarea */
+#message {
+  margin-left: 3%;
+  width: 35%;
+  height: 200px;
+}
+
+/* Styling for footer */
+#index:hover {
+  background-color: #ffe5ca;
+  color: #4d4d4d;
+  padding: 10px;
+  border-radius: 25px;
+  font-size: 20px;
+  font-weight: 700;
+  word-spacing: 15px;
+  border: 5px inset #ffe6ca;
+}
+
+/* Styling for footer */
+#contact:hover {
+  background-color: #ffe5ca;
+  color: #4d4d4d;
+  padding: 10px;
+  border-radius: 25px;
+  font-size: 20px;
+  font-weight: 700;
+  word-spacing: 15px;
+  border: 5px inset #ffe6ca;
+}
+
+/* Styling for footer */
+#resume:hover {
+  background-color: #ffe5ca;
+  color: #4d4d4d;
+  padding: 10px;
+  border-radius: 25px;
+  font-size: 20px;
+  font-weight: 700;
+  word-spacing: 15px;
+  border: 5px inset #ffe6ca;
+}
+/* Styling for index, contact, and resume links hover effect */
+#index:hover,
+#contact:hover,
+#resume:hover,
+#projects:hover {
+  background-color: #ffe5ca;
+  color: #4d4d4d;
+  padding: 10px;
+  border-radius: 25px;
+  font-size: 20px;
+  font-weight: 700;
+  word-spacing: 15px;
+  border: 5px inset #ffe6ca;
+}
+/* Styling for main container */
+.container {
+  width: 100%;
+  height: 100%;
+}
+/* Menu styles */
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #4d4d4d;
+  word-spacing: 15px;
+}
+
+/* Styling for menu links */
+.menu-item {
+  border: 12px solid #ffe5ca;
+  border-radius: 25px;
+  background-color: #ffe5ca;
+}
+
+.bio {
+  /* padding: 20px; */
+  text-align: center;
+  font-size: 30px;
+  font-family: "Raleway";
+  font-weight: bold;
+}
+.bio img {
+  padding-left: 10px;
+  width: 80px;
+  height: 78px;
+  border-radius: 25%;
+}
+
+.bio2 {
+  text-align: left;
+  align-items: center;
+  border: 5px solid #ffe5ca;
+  background-color: #000;
+  font-size: 23px;
+  max-width: 750px;
+  min-height: 300px;
+  margin: auto;
+  border-radius: 25px;
+  font-family: monospace;
+  padding: 20px;
+  color: #5f8d4e;
+}
+/* Styling for terminal */
+.terminal {
+  color: #7b2869;
+  font-size: 21px;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.command {
+  color: #5f8d4e;
+}
+/* Styling for icons */
+.icons {
+  text-align: center;
+  word-spacing: 20px;
+  position: relative;
+  padding-bottom: 30px;
+}
+s
+
+/* Styling for menu links hover effect */
+.menu a:hover {
+  text-decoration: none;
+}
