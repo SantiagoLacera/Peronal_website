@@ -223,7 +223,7 @@ input,
   border-radius: 25px;
   background-color: #ffe5ca;
   margin: 2%;
-  box-shadow: 0 0 30px 0 #FFF3E2cc;
+  box-shadow: 0 0 30px 0 #fff3e2cc;
 }
 
 .bio {
@@ -283,7 +283,6 @@ s
   text-decoration: none;
 }
 
-
 /* Styling for Projects */
 .project-container {
   display: flex;
@@ -292,10 +291,11 @@ s
   align-items: center;
   width: 100%;
 }
+
 figure {
   display: flex;
   flex-direction: column;
-    justify-content: center;
+  justify-content: center;
     align-items: center;
     width: 400px;
 }
@@ -306,12 +306,13 @@ figure img {
   border-radius: 25px;
   margin-bottom: 20px;
 }
+
 figcaption {
   text-align: left;
   max-height: 50px;
 }
 
-figcaption>p {
+figcaption p {
   background-color: black;
   border-radius: 10px;
   padding: 10px;
