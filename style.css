@@ -2,10 +2,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Inter:wght@400;700&family=Kanit&family=Pacifico&family=Raleway:wght@500&family=Roboto+Mono:ital,wght@1,500&family=Sono&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&family=Syne+Mono&display=swap");
+
 /* Global styles */
 * {
   box-sizing: border-box;
 }
+
 html,
 body {
   font-family: "Helvetica Neue", sans-serif;
@@ -23,6 +25,7 @@ h1 {
   text-align: center;
   /* padding-bottom: 25px; */
 }
+
 h2 {
   font-family: "Roboto Mono";
   font-size: 40px;
@@ -37,6 +40,7 @@ h3 {
   color: #ff9494;
   text-align: center;
 }
+
 p {
   margin: 5px;
   font-family: "Roboto Mono";
@@ -91,6 +95,7 @@ a:active {
   text-decoration: none;
   color: black;
 }
+
 a:hover {
   text-decoration: none;
 }
@@ -100,6 +105,7 @@ input,
   border: 5px solid #ffe5ca;
   border-radius: 10px;
 }
+
 /* Styling for input fields */
 #name,
 #email,
@@ -110,6 +116,7 @@ input,
   border-radius: 10px;
   margin-bottom: 15px;
 }
+
 /* Styling for button */
 #button {
   background-color: #ffe5ca;
@@ -125,6 +132,7 @@ input,
   width: 30%;
   height: 50px;
 }
+
 /* Styling for button on different states */
 #button:hover {
   border: 5px inset #4d4d4d;
@@ -173,6 +181,7 @@ input,
   word-spacing: 15px;
   border: 5px inset #ffe6ca;
 }
+
 /* Styling for index, contact, and resume links hover effect */
 #index:hover,
 #contact:hover,
@@ -187,11 +196,13 @@ input,
   word-spacing: 15px;
   border: 5px inset #ffe6ca;
 }
+
 /* Styling for main container */
 .container {
   width: 100%;
   height: 100%;
 }
+
 /* Menu styles */
 
 .menu {
@@ -212,7 +223,7 @@ input,
   border-radius: 25px;
   background-color: #ffe5ca;
   margin: 2%;
-  box-shadow: 0 0 30px 0 #FFF3E2cc; 
+  box-shadow: 0 0 30px 0 #FFF3E2cc;
 }
 
 .bio {
@@ -222,6 +233,7 @@ input,
   font-family: "Raleway";
   font-weight: bold;
 }
+
 .bio img {
   padding-left: 10px;
   width: 80px;
@@ -243,6 +255,7 @@ input,
   padding: 20px;
   color: #5f8d4e;
 }
+
 /* Styling for terminal */
 .terminal {
   color: #7b2869;
@@ -254,6 +267,7 @@ input,
 .command {
   color: #5f8d4e;
 }
+
 /* Styling for icons */
 .icons {
   text-align: center;
@@ -261,6 +275,7 @@ input,
   position: relative;
   padding-bottom: 30px;
 }
+
 s
 
 /* Styling for menu links hover effect */
@@ -270,72 +285,34 @@ s
 
 
 /* Styling for Projects */
-.main-container{
-  align-items: center;
-  font-size: 1.5rem;
-  text-align: center;
-  padding: 0 1rem;
-}
-.gallery{
+.project-container {
   display: flex;
-  height: 40rem;
-  gap : 2rem;
-  margin: auto;   
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+figure {
+  display: flex;
+  flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
 }
 
-.gallery > a{
-  flex: 1;
-  border-radius: 1rem;
-  background-repeat: no-repeat;
-  transition: all 0.5s cubic-bezier(0.25, 0.7, 0.45, 1);
-  color: #393646;
-}
-
-.first-image-project{
-  background-image: url(Images/Terminal-SL-IMG.PNG);
-  
-}
-.second-image-project{
-  background-image: url(Images/Company-Website-IMG.PNG);
-  display:block;
-  margin-left: 0;
-  margin-right: 0;
-}
-.third-image-project{
-  background-image: url(Images/Bingo-Website-IMG.PNG);
-  display:block;
-  margin-left: 0;
-  margin-right: 0;
-}
-.fourth-image-project{
-  background-image: url(Images/Valentine-Website-IMG.PNG);
-}
-
-.gallery > a:hover{
-  flex: 0.1 100%;
-  border-radius: 1rem;
-}
-
-/* Styling for Projects */
-
-.project-name2,
-.project-name4{
-  text-align: center;
-  font-size: 2rem;
-  font-weight: bold;
-  font-family: "Raleway";
-  color: #263A29;
+figure img {
+  width: 300px;
+  height: 300px;
   border-radius: 25px;
-  position: relative;
+  margin-bottom: 20px;
+}
+figcaption {
+  text-align: left;
+  max-height: 50px;
 }
 
-.project-name1,
-.project-name3{
-  text-align: center;
-  font-size: 2rem;
-  font-weight: bold;
-  font-family: "Raleway";
-  color: #ffe5ca;
-  border-radius: 25px;
-  position: relative;
+figcaption>p {
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
 }
